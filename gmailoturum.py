@@ -3,13 +3,7 @@
 
 import smtplib
 from datetime import datetime
-GHT = '''
-========================================
- Yazar: Faruk GÜNGÖR
- Uygulama: Gmail Oturum Açma Girişim (brute-force)
- Tarih: Kasım 2016
-=======================================
-'''
+
 print " # Gmail Oturum Açma Girişim uygulaması #"
 print " # CTRL + C ile programdan çıkabilirsiniz #"
 smtpserver=smtplib.SMTP("smtp.gmail.com",587)
